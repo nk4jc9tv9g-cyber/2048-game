@@ -236,3 +236,27 @@ document.addEventListener("mouseup", (e) => {
     setTwo();
     document.getElementById("score").innerText = score;
 });
+
+function moveLeft() {
+    slideLeft();
+    setTwo();
+    document.getElementById("score").innerText = score;
+}
+
+function moveRight() {
+    slideright();
+    setTwo();
+    document.getElementById("score").innerText = score;
+}
+
+function moveUp() {
+    slideup();
+    setTwo();
+    document.getElementById("score").innerText = score;
+}
+
+function moveDown() {
+    slidedown();
+    setTwo();
+    document.getElementById("score").innerText = score;
+}

@@ -103,3 +103,15 @@ button#spawn4-btn {
     border-radius: 10px;
 
 }
+
+#controls {
+    margin-top: 20px;
+}
+#controls button {
+    background-color: #bbada0;
+    color: white;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 5px;
+}
