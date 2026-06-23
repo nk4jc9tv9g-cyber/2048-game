@@ -307,4 +307,8 @@ document.addEventListener("touchend", function(e) {
             moveUp();
         }
     }
+
+document.getElementById("board").addEventListener("touchmove", function(e) {
+        e.preventDefault();
+},      { passive:false});
 });
