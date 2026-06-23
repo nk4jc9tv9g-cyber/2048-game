@@ -126,4 +126,5 @@ button#spawn4-btn {
 
 }
 
-
+#board {
+    touch-action: none;
